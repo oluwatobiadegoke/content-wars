@@ -3,7 +3,7 @@ import MobileNav from "./Navigator/MobileNav";
 
 const Layout = ({ children }) => {
   return (
-    <main className="bg-black min-h-screen">
+    <main className="bg-black min-h-screen relative">
       <MainNav />
       {children}
       <MobileNav />

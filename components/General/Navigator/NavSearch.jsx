@@ -5,7 +5,7 @@ import * as Yup from "yup";
 const MyInputArea = (props) => {
   const [field, meta] = useField(props);
   return (
-    <div className="flex items-center w-72 h-12 bg-black rounded mr-16">
+    <div className="flex items-center w-52 lg:w-72 h-12 bg-black rounded mr-0 lg:mr-16">
       <label htmlFor={props.name} className="mx-3 h-full flex items-center">
         <Image
           src="/../public/search.svg"
