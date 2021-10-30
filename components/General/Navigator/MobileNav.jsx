@@ -1,4 +1,4 @@
-import Image from "next/link";
+import Image from "next/image";
 import { navlinks } from "../../../utils/navlinks";
 
 const MobileNav = () => {

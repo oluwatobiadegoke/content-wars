@@ -1,9 +1,9 @@
 import MainNav from "./Navigator/MainNav";
 import MobileNav from "./Navigator/MobileNav";
 
-const Layout = (children) => {
+const Layout = ({ children }) => {
   return (
-    <main>
+    <main className="bg-black min-h-screen">
       <MainNav />
       {children}
       <MobileNav />
