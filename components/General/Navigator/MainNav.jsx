@@ -3,7 +3,7 @@ import Image from "next/image";
 import NavSearch from "./NavSearch";
 import { navlinks } from "../../../utils/navlinks";
 
-const MainNav = () => {
+const MainNav = ({ openModal }) => {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
@@ -53,7 +53,11 @@ const MainNav = () => {
           {navlinks.map((link) => {
             const { id, name, image } = link;
             return (
-              <div key={id} className="flex flex-col items-center gap-1">
+              <div
+                key={id}
+                className="flex flex-col items-center gap-1 cursor-pointer"
+                {...(name === "Upload" && { onClick: () => openModal() })}
+              >
                 <Image src={image} alt={name} height={20} width={20} />
                 <p>{name}</p>
               </div>
