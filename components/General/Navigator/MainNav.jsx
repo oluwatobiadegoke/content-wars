@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import NavSearch from "./NavSearch";
@@ -43,15 +44,27 @@ const MainNav = ({ openModal }) => {
         </div>
 
         {/* SEARCH INPUTS FOR DIFF SCREENS */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:flex items-center">
           <NavSearch />
         </div>
-        <div className={`${searchOpen ? "block" : "hidden"} lg:hidden`}>
+        <div
+          className={`${searchOpen ? "flex items-center" : "hidden"} lg:hidden`}
+        >
           <NavSearch />
         </div>
         <div className="gap-10 hidden lg:flex">
           {navlinks.map((link) => {
-            const { id, name, image } = link;
+            const { id, name, image, type, route } = link;
+            if (type === "link") {
+              return (
+                <Link href={route} key={id}>
+                  <a className="flex flex-col items-center gap-1 cursor-pointer">
+                    <Image src={image} alt={name} height={20} width={20} />
+                    <p>{name}</p>
+                  </a>
+                </Link>
+              );
+            }
             return (
               <div
                 key={id}
