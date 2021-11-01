@@ -8,10 +8,10 @@ const UploadModal = ({ closeModal, isOpen }) => {
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog
           as="div"
-          className="fixed inset-0 z-10 overflow-y-auto"
+          className="fixed inset-0 z-50 overflow-y-auto"
           onClose={closeModal}
         >
-          <div className="min-h-screen px-4 text-center">
+          <div className="min-h-screen px-3 text-center">
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -21,7 +21,7 @@ const UploadModal = ({ closeModal, isOpen }) => {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <Dialog.Overlay className="fixed inset-0 bg-black opacity-70" />
+              <Dialog.Overlay className="fixed inset-0 bg-black opacity-80" />
             </Transition.Child>
 
             {/* This element is to trick the browser into centering the modal contents. */}

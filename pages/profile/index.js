@@ -5,8 +5,8 @@ import ProfileLinks from "../../components/Profile/ProfileLinks";
 const Profile = () => {
   return (
     <Layout>
-      <main className="text-white w-full">
-        <div className="w-full lg:w-1/3 mx-auto">
+      <main className="text-white w-full px-3 lg:px-6">
+        <div className="w-full lg:w-1/3 lg:mx-auto">
           <Info />
           <ProfileLinks />
         </div>

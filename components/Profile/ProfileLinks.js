@@ -9,7 +9,7 @@ const ProfileLinks = () => {
         const { id, name, route, number } = link;
         return (
           <Link href={route} key={id}>
-            <a className="flex items-center justify-between h-14 px-3 bg-deepGrey-100 hover:bg-lightGrey-100 transition-all">
+            <a className="flex items-center justify-between h-14 px-3 rounded bg-deepGrey-100 hover:bg-lightGrey-100 transition-all">
               <span className="flex items-center">
                 <span>{name}</span>
                 {(name === "Notifications" || name === "Video Requests") && (

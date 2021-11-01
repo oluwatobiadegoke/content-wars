@@ -8,25 +8,25 @@ export const userlinks = [
   {
     id: 1,
     name: "Notifications",
-    route: "/notifications",
+    route: "/profile/notifications",
     number: 12,
   },
   {
     id: 2,
     name: "Video Requests",
-    route: "/Videorequests",
+    route: "/profile/videorequests",
     number: 3,
   },
   {
     id: 3,
     name: "Calendar",
-    route: "/calendar",
+    route: "/profile/calendar",
     number: 0,
   },
   {
     id: 4,
     name: "Coins available",
-    route: "/coins",
+    route: "/profile/coins",
     number: 0,
   },
 ];
