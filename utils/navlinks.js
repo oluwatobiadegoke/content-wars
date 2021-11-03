@@ -15,10 +15,10 @@ export const navlinks = [
   },
   {
     id: 2,
-    route: "",
+    route: "/content-war",
     name: "Content war",
     image: "/../public/content-war.svg",
-    type: "button",
+    type: "link",
   },
   {
     id: 3,
