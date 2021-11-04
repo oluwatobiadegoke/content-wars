@@ -1,19 +1,15 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 const UploadForm = ({ setUpload, setUploadSelected }) => {
   const [file, setFile] = useState("");
-
-  //   const ref = useRef();
 
   useEffect(() => {
     if (!file) {
       setUpload(undefined);
       return;
     }
-
     setUpload(URL.createObjectURL(file));
     setUploadSelected(true);
-    console.log(file);
     return () => URL.revokeObjectURL(file);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [file]);
