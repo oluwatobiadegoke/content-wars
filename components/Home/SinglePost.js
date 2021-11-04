@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Image from "next/image";
 import CommentInput from "./CommentInput";
 import PostHead from "./PostHead";
 
 const SinglePost = ({ post }) => {
+  const [viewAllComments, setViewAllComments] = useState(false);
+
   const {
     category,
     timestamp,
@@ -11,7 +14,6 @@ const SinglePost = ({ post }) => {
     likes,
     comments,
   } = post;
-  console.log(post);
   return (
     <div className="bg-deepGrey-100 rounded-lg py-4 mb-6">
       <PostHead
@@ -31,9 +33,14 @@ const SinglePost = ({ post }) => {
         </p>
       </div>
       <div className="px-4">
-        {comments.map((comment) => {
+        {comments.map((comment, index) => {
           return (
-            <div key={comment.id} className="flex items-center h-11 mb-3 gap-3">
+            <div
+              key={comment.id}
+              className={`${
+                index > 1 ? (viewAllComments ? "flex" : "hidden") : "flex"
+              } items-center h-11 mb-3 gap-3`}
+            >
               <Image
                 src={comment.avatar}
                 width={44}
@@ -47,7 +54,21 @@ const SinglePost = ({ post }) => {
           );
         })}
       </div>
-      <p className="text-sm pl-4 mb-3">View all comments</p>
+      {viewAllComments ? (
+        <p
+          className="text-sm pl-4 mb-3 cursor-pointer"
+          onClick={() => setViewAllComments(false)}
+        >
+          View less comments
+        </p>
+      ) : (
+        <p
+          className="text-sm pl-4 mb-3 cursor-pointer"
+          onClick={() => setViewAllComments(true)}
+        >
+          View all comments
+        </p>
+      )}
       <CommentInput />
     </div>
   );
