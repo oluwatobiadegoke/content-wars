@@ -8,7 +8,7 @@ const MainNav = ({ openModal }) => {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
-    <nav className="bg-lightGrey-100 h-20 lg:h-24 flex items-center px-3 lg:px-6">
+    <nav className="bg-deepGrey-100 h-20 lg:h-24 flex items-center px-3 lg:px-6">
       {/* LOGOS FOR DIFFERENT SCREENS */}
       <div className="flex-1 lg:hidden">
         <Image

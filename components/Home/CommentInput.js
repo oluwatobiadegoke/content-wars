@@ -4,9 +4,9 @@ import * as Yup from "yup";
 const MyInputArea = (props) => {
   const [field, meta] = useField(props);
   return (
-    <div className="flex items-center w-full h-12 bg-lightGrey-100 rounded mr-0 lg:mr-16">
+    <div className="flex items-center w-full h-10 bg-transparent rounded px-4">
       <input
-        className="h-full w-full pl-14 text-sm bg-lightGrey-100 rounded-r placeholder-white rounded"
+        className="h-full w-full pl-14 text-sm bg-transparent rounded-r placeholder-white border border-lightGrey-100 rounded"
         id="message"
         {...field}
         {...props}
@@ -18,7 +18,7 @@ const MyInputArea = (props) => {
   );
 };
 
-const ChatInput = () => {
+const CommentInput = () => {
   return (
     <Formik
       initialValues={{ comment: "" }}
@@ -28,10 +28,10 @@ const ChatInput = () => {
       onSubmit={() => console.log("")}
     >
       <Form>
-        <MyInputArea name="coin" type="text" placeholder="Send a comment" />
+        <MyInputArea name="comment" type="text" placeholder="Add a comment" />
       </Form>
     </Formik>
   );
 };
 
-export default ChatInput;
+export default CommentInput;
