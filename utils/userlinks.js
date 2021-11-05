@@ -14,7 +14,7 @@ export const userlinks = [
   {
     id: 2,
     name: "Video Requests",
-    route: "/profile/videorequests",
+    route: "/profile/video-requests",
     number: 3,
   },
   {
