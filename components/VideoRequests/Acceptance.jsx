@@ -20,7 +20,7 @@ const Acceptance = ({ name, closeModal }) => {
           <div className="flex gap-2 items-center justify-center my-1">
             <div>
               <Image
-                src="/public/commentavatar.png"
+                src="/commentavatar.png"
                 alt={name}
                 height={40}
                 width={40}

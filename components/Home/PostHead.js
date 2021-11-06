@@ -19,7 +19,7 @@ const PostHead = ({ name, avatar, timestamp, category }) => {
               <p className="text-sm mb-2">{timestamp}</p>
             </div>
             <button onClick={() => setMenuOpen(!menuOpen)}>
-              <Image src="/public/dots.svg" width={24} height={24} alt="menu" />
+              <Image src="/dots.svg" width={24} height={24} alt="menu" />
             </button>
           </div>
           <div

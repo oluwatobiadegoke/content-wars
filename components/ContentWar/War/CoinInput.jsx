@@ -45,7 +45,7 @@ const CoinInput = () => {
       <CoinAmount />
       <div>
         <button>
-          <Image src="/../public/heart.svg" alt="" height={24} width={24} />
+          <Image src="/heart.svg" alt="" height={24} width={24} />
         </button>
       </div>
     </div>

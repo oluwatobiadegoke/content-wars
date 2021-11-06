@@ -18,12 +18,7 @@ const ProfileLinks = () => {
                   </span>
                 )}
               </span>
-              <Image
-                src={"/public/right.svg"}
-                alt="right"
-                width={20}
-                height={20}
-              />
+              <Image src={"/right.svg"} alt="right" width={20} height={20} />
             </a>
           </Link>
         );

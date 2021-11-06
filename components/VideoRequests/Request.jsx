@@ -22,12 +22,7 @@ const Request = ({ request }) => {
         time={time}
       />
       <div>
-        <Image
-          src="/public/commentavatar.png"
-          alt={name}
-          height={40}
-          width={40}
-        />
+        <Image src="/commentavatar.png" alt={name} height={40} width={40} />
       </div>
       <div className="flex flex-1 flex-col items-start gap-4">
         <span>

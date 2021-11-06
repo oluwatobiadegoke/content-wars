@@ -8,7 +8,7 @@ const user = {
   posts: 156,
   followers: 5700,
   following: 89,
-  avatar: "/public/user.png",
+  avatar: "/user.png",
 };
 
 const Info = () => {

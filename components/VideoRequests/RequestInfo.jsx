@@ -17,12 +17,7 @@ const RequestInfo = ({ name, time, closeModal, setAccept }) => {
       <div className="inline-block w-full max-w-md px-5 overflow-hidden text-center align-middle transition-all transform bg-deepGrey-100 shadow-xl text-white rounded-2xl">
         <div className="flex items-center justify-center mt-14 gap-2">
           <div>
-            <Image
-              src="/public/commentavatar.png"
-              alt={name}
-              height={40}
-              width={40}
-            />
+            <Image src="/commentavatar.png" alt={name} height={40} width={40} />
           </div>
           <p className="text-lg font-bold">{name}</p>
         </div>

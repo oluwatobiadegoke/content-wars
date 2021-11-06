@@ -33,12 +33,7 @@ const Schedule = ({ schedules }) => {
                 />
               </div>
               <div className="absolute" style={{ left: "calc(50% - 12px)" }}>
-                <Image
-                  src="/public/sch2.png"
-                  alt="name"
-                  width={48}
-                  height={48}
-                />
+                <Image src="/sch2.png" alt="name" width={48} height={48} />
               </div>
             </div>
             <div className="text-white flex items-center justify-center gap-2">

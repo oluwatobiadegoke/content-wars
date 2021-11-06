@@ -11,7 +11,7 @@ const Uploads = () => {
         <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div>
             <Image
-              src="/public/upload1.png"
+              src="/upload1.png"
               height={200}
               width={283}
               alt="image"
@@ -20,7 +20,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload2.png"
+              src="/upload2.png"
               height={200}
               width={283}
               alt="image"
@@ -29,7 +29,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload3.png"
+              src="/upload3.png"
               height={200}
               width={283}
               alt="image"
@@ -38,7 +38,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload4.png"
+              src="/upload4.png"
               height={200}
               width={283}
               alt="image"
@@ -47,7 +47,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload5.png"
+              src="/upload5.png"
               height={200}
               width={283}
               alt="image"
@@ -56,7 +56,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload6.png"
+              src="/upload6.png"
               height={200}
               width={283}
               alt="image"
@@ -65,7 +65,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload7.png"
+              src="/upload7.png"
               height={200}
               width={283}
               alt="image"
@@ -74,7 +74,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload8.png"
+              src="/upload8.png"
               height={200}
               width={283}
               alt="image"
@@ -83,7 +83,7 @@ const Uploads = () => {
           </div>
           <div>
             <Image
-              src="/public/upload9.png"
+              src="/upload9.png"
               height={200}
               width={283}
               alt="image"

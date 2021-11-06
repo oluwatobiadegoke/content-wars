@@ -34,7 +34,7 @@ const MyInputArea = (props) => {
         className="h-full flex items-center cursor-pointer"
         onClick={() => ref.current.focus()}
       >
-        <Image src="/public/search.svg" height="20" width="20" alt="search" />
+        <Image src="/search.svg" height="20" width="20" alt="search" />
       </label>
     </div>
   );
@@ -62,7 +62,7 @@ const InfluencerSearch = ({ allInfluencers, setFilteredInfluencers }) => {
       </div>
       <div className="flex items-center pr-4">
         <Image
-          src="/public/filter.svg"
+          src="/filter.svg"
           alt="filter"
           width={20}
           height={20}

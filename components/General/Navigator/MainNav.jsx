@@ -14,7 +14,7 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/public/content-coin.png"
+              src="/content-coin.png"
               width={129}
               height={38}
               alt="Content Wars Logo"
@@ -26,7 +26,7 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/public/content-coin.png"
+              src="/content-coin.png"
               width={226}
               height={75}
               alt="Content Wars Logo"
@@ -43,7 +43,7 @@ const MainNav = ({ openModal }) => {
           } cursor-pointer lg:hidden`}
         >
           <Image
-            src="/public/search-yellow.svg"
+            src="/search-yellow.svg"
             height={24}
             width={24}
             alt="search"
