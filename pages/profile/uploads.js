@@ -5,8 +5,8 @@ const Uploads = () => {
   return (
     <Layout>
       <main className="py-14">
-        <p className="text-appYellow-100 text-lg mb-8 text-center">
-          Uploads(9)
+        <p className="text-appYellow-100 text-lg mb-8 text-center font-medium">
+          Uploads (9)
         </p>
         <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div>
