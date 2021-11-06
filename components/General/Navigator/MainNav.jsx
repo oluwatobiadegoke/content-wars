@@ -66,7 +66,7 @@ const MainNav = ({ openModal }) => {
             if (type === "link") {
               return (
                 <Link href={route} key={id}>
-                  <a className="flex flex-col items-center gap-1 cursor-pointer">
+                  <a className="flex flex-col items-center text-center gap-1 cursor-pointer">
                     <Image src={image} alt={name} height={20} width={20} />
                     <p>{name}</p>
                   </a>
