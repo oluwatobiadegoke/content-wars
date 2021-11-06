@@ -34,7 +34,7 @@ const Schedule = ({ schedules }) => {
               </div>
               <div className="absolute" style={{ left: "calc(50% - 12px)" }}>
                 <Image
-                  src="/../public/sch2.png"
+                  src="/public/sch2.png"
                   alt="name"
                   width={48}
                   height={48}

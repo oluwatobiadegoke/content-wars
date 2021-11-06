@@ -27,7 +27,7 @@ const SinglePost = ({ post }) => {
         <Image src={image} width={896} height={337} alt={image} />
       </div>
       <div className="flex items-center mx-6 gap-3 mb-4">
-        <Image src="/../public/heart.svg" width={24} height={24} alt={image} />
+        <Image src="/public/heart.svg" width={24} height={24} alt={image} />
         <p>
           {likes} <span>Likes</span>
         </p>

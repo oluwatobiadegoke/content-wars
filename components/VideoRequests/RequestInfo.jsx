@@ -18,7 +18,7 @@ const RequestInfo = ({ name, time, closeModal, setAccept }) => {
         <div className="flex items-center justify-center mt-14 gap-2">
           <div>
             <Image
-              src="/../public/commentavatar.png"
+              src="/public/commentavatar.png"
               alt={name}
               height={40}
               width={40}

@@ -21,7 +21,7 @@ const Preview = ({
       <div className="inline-block w-full max-w-md overflow-hidden text-left align-middle transition-all transform bg-transparent shadow-xl  text-white">
         <div className="flex justify-end mb-8 cursor-pointer">
           <Image
-            src="/../public/cancel.png"
+            src="/public/cancel.png"
             width={35}
             height={35}
             alt="cancel"

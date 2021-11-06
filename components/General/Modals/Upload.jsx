@@ -18,7 +18,7 @@ const Upload = ({ closeModal, upload, setUpload, setUploadSelected }) => {
       <div className="inline-block w-full max-w-md overflow-hidden text-left align-middle transition-all transform bg-transparent shadow-xl  text-white">
         <div className="flex justify-end mb-8 cursor-pointer">
           <Image
-            src="/../public/cancel.png"
+            src="/public/cancel.png"
             width={35}
             height={35}
             alt="cancel"
@@ -31,7 +31,7 @@ const Upload = ({ closeModal, upload, setUpload, setUploadSelected }) => {
           </Dialog.Title>
           <div className="my-16 flex justify-center">
             <Image
-              src="/../public/camera.svg"
+              src="/public/camera.svg"
               alt="camera"
               height={58.84}
               width={102.15}

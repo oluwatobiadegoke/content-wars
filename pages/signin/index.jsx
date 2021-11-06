@@ -9,7 +9,7 @@ const Signin = () => {
       <div className="w-full lg:w-1/2 bg-deepGrey-100 py-10  px-4 lg:px-20">
         <div className="flex justify-center">
           <Image
-            src="/../public/content-coin.png"
+            src="/public/content-coin.png"
             width={226}
             height={75}
             alt="Content Wars Logo"

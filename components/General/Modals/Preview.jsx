@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { Formik, useField, Form } from "formik";

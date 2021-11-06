@@ -10,12 +10,7 @@ const MyInputArea = (props) => {
       style={{ backgroundColor: "#121212" }}
     >
       <label htmlFor={props.name} className="mx-3 h-full flex items-center">
-        <Image
-          src="/../public/search.svg"
-          height="20"
-          width="20"
-          alt="search"
-        />
+        <Image src="/public/search.svg" height="20" width="20" alt="search" />
       </label>
       <input
         className="h-full w-full bg-transparent rounded-r placeholder-white"

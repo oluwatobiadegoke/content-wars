@@ -23,7 +23,7 @@ const Request = ({ request }) => {
       />
       <div>
         <Image
-          src="/../public/commentavatar.png"
+          src="/public/commentavatar.png"
           alt={name}
           height={40}
           width={40}
