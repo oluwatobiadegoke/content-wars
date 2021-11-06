@@ -29,4 +29,28 @@ export const userlinks = [
     route: "/profile/coins",
     number: 0,
   },
+  {
+    id: 5,
+    name: "Request coin from follower",
+    route: "/profile/request",
+    number: 0,
+  },
+  {
+    id: 6,
+    name: "Buy coins",
+    route: "/profile/buy-coins",
+    number: 0,
+  },
+  {
+    id: 7,
+    name: "Settings",
+    route: "/profile/coins",
+    number: 0,
+  },
+  {
+    id: 8,
+    name: "Log out",
+    route: "/profile/logout",
+    number: 0,
+  },
 ];

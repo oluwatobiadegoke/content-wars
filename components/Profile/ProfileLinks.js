@@ -4,12 +4,12 @@ import { userlinks } from "../../utils/userlinks";
 
 const ProfileLinks = () => {
   return (
-    <div className="bg-deepGrey-100 flex flex-col rounded px-3 py-6">
+    <div className="bg-transparent flex flex-col rounded px-3 py-6">
       {userlinks.map((link) => {
         const { id, name, route, number } = link;
         return (
           <Link href={route} key={id}>
-            <a className="flex items-center justify-between h-14 px-3 rounded bg-deepGrey-100 hover:bg-lightGrey-100 transition-all">
+            <a className="flex items-center justify-between h-14 px-3 rounded hover:bg-lightGrey-100 transition-all">
               <span className="flex items-center">
                 <span>{name}</span>
                 {(name === "Notifications" || name === "Video Requests") && (
