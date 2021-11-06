@@ -2,7 +2,7 @@ export const userlinks = [
   {
     id: 0,
     name: "Uploads",
-    route: "/uploads",
+    route: "/profile/uploads",
     number: 0,
   },
   {

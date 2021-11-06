@@ -15,7 +15,10 @@ const Layout = ({ children }) => {
   };
 
   return (
-    <main className="bg-black min-h-screen relative">
+    <main
+      className="min-h-screen relative"
+      style={{ backgroundColor: "#121212" }}
+    >
       <UploadModal closeModal={closeModal} isOpen={isOpen} />
       <MainNav openModal={openModal} />
       {children}
