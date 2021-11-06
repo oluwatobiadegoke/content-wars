@@ -3,7 +3,7 @@ import { useState } from "react";
 import Layout from "../../components/General/Layout";
 import InfluencerList from "../../components/Influencers/InfluencerList";
 import InfluencerSearch from "../../components/Influencers/InfluencerSearch";
-import { influencers } from "../../utils/Influencers";
+import { influencers } from "../../utils/influencers";
 import InfluencerModal from "../../components/Influencers/InfluencerModal";
 
 const Influencers = () => {
