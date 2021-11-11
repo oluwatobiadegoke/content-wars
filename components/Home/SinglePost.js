@@ -42,6 +42,10 @@ const SinglePost = ({ post }) => {
               width="100%"
               height="100%"
               alt={source}
+              volume={0.5}
+              playing={true}
+              muted={true}
+              loop={true}
               controls
               // light={true}
               config={{
