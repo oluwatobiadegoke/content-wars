@@ -16,9 +16,7 @@ const Signup = () => {
             className=" text-center"
           />
         </div>
-        <p className="text-center text-white text-xl mt-8">
-          Login to your account
-        </p>
+        <p className="text-center text-white text-xl mt-8">Create an account</p>
         <SignupForm />
       </div>
       <p className="text-white mt-10">
