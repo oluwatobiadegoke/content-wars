@@ -10,13 +10,13 @@ const MainNav = ({ openModal }) => {
   return (
     <nav className="bg-deepGrey-100 h-20 lg:h-24 flex items-center px-3 lg:px-6">
       {/* LOGOS FOR DIFFERENT SCREENS */}
-      <div className="flex-1 lg:hidden">
+      <div className="flex-1 flex items-center h-full lg:hidden">
         <Link href="/">
           <a>
             <Image
-              src="/content-coin.png"
-              width={129}
-              height={38}
+              src="/content wars.png"
+              width={100}
+              height={90}
               alt="Content Wars Logo"
             />
           </a>
@@ -26,10 +26,11 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/content-coin.png"
-              width={226}
-              height={75}
+              src="/content wars.png"
+              width={120}
+              height={120}
               alt="Content Wars Logo"
+              className="border"
             />
           </a>
         </Link>
