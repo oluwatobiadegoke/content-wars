@@ -33,15 +33,15 @@ export const posts = [
   },
   {
     id: 2,
-    timestamp: "1hr ago",
+    timestamp: "15mins ago",
     category: "Music",
     content: {
       words: "Content coin to the moon! Stacking Up!",
-      source: "/home1.png",
-      type: "Image",
+      source: "/island.mp4",
+      type: "Video",
     },
     user: {
-      name: "Island Boy",
+      name: "Island Boys",
       avatar: "/islandboys.png",
     },
     likes: 4000,
@@ -65,7 +65,7 @@ export const posts = [
   },
   {
     id: 3,
-    timestamp: "1hr ago",
+    timestamp: "30mins ago",
     category: "Dance",
     content: {
       words: "Let’s take this 🚀 to the 🌚",
@@ -73,8 +73,8 @@ export const posts = [
       type: "Video",
     },
     user: {
-      name: "Veronica Chavez",
-      avatar: "/postavatar.png",
+      name: "Anastasia Womder",
+      avatar: "/ana.jpeg",
     },
     likes: 4000,
     comments: [
