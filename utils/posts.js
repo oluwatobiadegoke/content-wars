@@ -2,80 +2,78 @@ export const posts = [
   {
     id: 1,
     timestamp: "1hr ago",
-    category: "Beauty",
+    category: "Dance",
     content: {
-      words:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, voluptas commodi. Corrupti, vel nesciunt excepturi rerum delectus maxime! Numquam, exercitationem",
-      image: "/home1.png",
+      words: "Dancing my heart out",
+      source: "/dialec.mp4",
+      type: "video",
     },
     user: {
-      name: "Anderson Mill",
-      avatar: "/postavatar.png",
+      name: "Dialec Hernandez",
+      avatar: "/dhernandez.jpeg",
     },
     likes: 4000,
     comments: [
       {
         id: 1,
         avatar: "/commentavatar.png",
-        comment: "Hey, I really love this. Really nice.",
+        comment: "Like wow.",
       },
       {
         id: 2,
         avatar: "/commentavatar.png",
-        comment: "I'm not sure about this one. I think it's okay.",
+        comment: "Love it.",
       },
       {
         id: 3,
         avatar: "/commentavatar.png",
-        comment:
-          " Yo Anderson. This is super cool. How did you come up with this?",
+        comment: "Where is that",
       },
     ],
   },
   {
     id: 2,
     timestamp: "1hr ago",
-    category: "Fashion",
+    category: "Music",
     content: {
-      words:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, voluptas commodi. Corrupti, vel nesciunt excepturi rerum delectus maxime! Numquam, exercitationem",
-      image: "/home1.png",
+      words: "Content coin to the moon! Stacking Up!",
+      source: "/home1.png",
+      type: "Image",
     },
     user: {
-      name: "Anderson Mill",
-      avatar: "/postavatar.png",
+      name: "Island Boy",
+      avatar: "/islandboys.png",
     },
     likes: 4000,
     comments: [
       {
         id: 1,
         avatar: "/commentavatar.png",
-        comment: "Hey, I really love this. Really nice.",
+        comment: "Lit.",
       },
       {
         id: 2,
         avatar: "/commentavatar.png",
-        comment: "I'm not sure about this one. I think it's okay.",
+        comment: "Let me hold the bag.",
       },
       {
         id: 3,
         avatar: "/commentavatar.png",
-        comment:
-          " Yo Anderson. This is super cool. How did you come up with this?",
+        comment: " Great Pic",
       },
     ],
   },
   {
     id: 3,
     timestamp: "1hr ago",
-    category: "Music",
+    category: "Dance",
     content: {
-      words:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, voluptas commodi. Corrupti, vel nesciunt excepturi rerum delectus maxime! Numquam, exercitationem",
-      image: "/home1.png",
+      words: "Let’s take this 🚀 to the 🌚",
+      source: "/model.mp4",
+      type: "Video",
     },
     user: {
-      name: "Anderson Mill",
+      name: "Veronica Chavez",
       avatar: "/postavatar.png",
     },
     likes: 4000,
@@ -83,18 +81,12 @@ export const posts = [
       {
         id: 1,
         avatar: "/commentavatar.png",
-        comment: "Hey, I really love this. Really nice.",
+        comment: "Where did you get that outfit?",
       },
       {
         id: 2,
         avatar: "/commentavatar.png",
-        comment: "I'm not sure about this one. I think it's okay.",
-      },
-      {
-        id: 3,
-        avatar: "/commentavatar.png",
-        comment:
-          " Yo Anderson. This is super cool. How did you come up with this?",
+        comment: "Love it",
       },
     ],
   },

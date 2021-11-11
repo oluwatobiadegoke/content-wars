@@ -26,7 +26,7 @@ const PostHead = ({ name, avatar, timestamp, category }) => {
             className="h-7 w-20 text-sm flex items-center justify-center rounded"
             style={{
               backgroundColor: `${
-                (category === "Beauty" && "#EF5DA8") ||
+                (category === "Dance" && "#EF5DA8") ||
                 (category === "Fashion" && "#5D5FEF") ||
                 (category === "Music" && "#FFCA28")
               }`,

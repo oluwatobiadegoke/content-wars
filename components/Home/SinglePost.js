@@ -1,15 +1,22 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Image from "next/image";
+import ReactPlayer from "react-player/lazy";
+import { AiOutlinePlayCircle } from "react-icons/ai";
+
 import CommentInput from "./CommentInput";
 import PostHead from "./PostHead";
 
 const SinglePost = ({ post }) => {
   const [viewAllComments, setViewAllComments] = useState(false);
 
+  const handleContextMenu = useCallback((event) => {
+    event.preventDefault();
+  }, []);
+
   const {
     category,
     timestamp,
-    content: { words, image },
+    content: { words, source, type },
     user: { name, avatar },
     likes,
     comments,
@@ -24,10 +31,36 @@ const SinglePost = ({ post }) => {
       />
       <p className="mx-4 mb-6">{words}</p>
       <div className="mb-5">
-        <Image src={image} width={896} height={337} alt={image} />
+        {type === "Image" ? (
+          <Image src={source} width={896} height={337} alt={source} />
+        ) : (
+          <div className="relative" style={{ paddingTop: "56.25%" }}>
+            <ReactPlayer
+              className="absolute top-0 left-0"
+              url={source}
+              width="100%"
+              height="100%"
+              alt={source}
+              controls
+              // light={true}
+              config={{
+                file: {
+                  attributes: {
+                    controlsList: "nodownload",
+                  },
+                },
+              }}
+              // playIcon={
+              //   <div>
+              //     <AiOutlinePlayCircle className="h-16 w-16" />
+              //   </div>
+              // }
+            />
+          </div>
+        )}
       </div>
       <div className="flex items-center mx-6 gap-3 mb-4">
-        <Image src="/heart.svg" width={24} height={24} alt={image} />
+        <Image src="/heart.svg" width={24} height={24} alt={source} />
         <p>
           {likes} <span>Likes</span>
         </p>
