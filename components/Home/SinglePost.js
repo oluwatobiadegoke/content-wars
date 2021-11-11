@@ -5,6 +5,7 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 
 import CommentInput from "./CommentInput";
 import PostHead from "./PostHead";
+import { comment } from "postcss";
 
 const SinglePost = ({ post }) => {
   const [viewAllComments, setViewAllComments] = useState(false);
@@ -87,21 +88,22 @@ const SinglePost = ({ post }) => {
           );
         })}
       </div>
-      {viewAllComments ? (
-        <p
-          className="text-sm pl-4 mb-3 cursor-pointer"
-          onClick={() => setViewAllComments(false)}
-        >
-          View less comments
-        </p>
-      ) : (
-        <p
-          className="text-sm pl-4 mb-3 cursor-pointer"
-          onClick={() => setViewAllComments(true)}
-        >
-          View all comments
-        </p>
-      )}
+      {comments.length > 2 &&
+        (viewAllComments ? (
+          <p
+            className="text-sm pl-4 mb-3 cursor-pointer"
+            onClick={() => setViewAllComments(false)}
+          >
+            View less comments
+          </p>
+        ) : (
+          <p
+            className="text-sm pl-4 mb-3 cursor-pointer"
+            onClick={() => setViewAllComments(true)}
+          >
+            View all comments
+          </p>
+        ))}
       <CommentInput />
     </div>
   );
