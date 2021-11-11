@@ -9,7 +9,7 @@ const PostHead = ({ name, avatar, timestamp, category }) => {
     <div className="relative flex items-center justify-between px-4 pb-5">
       <Menu menuOpen={menuOpen} />
       <div className="flex gap-2 w-full">
-        <div>
+        <div className="h-12 w-12 overflow-hidden rounded-full">
           <Image src={avatar} height={48} width={48} alt={name} />
         </div>
         <div className="flex-1 w-full">
