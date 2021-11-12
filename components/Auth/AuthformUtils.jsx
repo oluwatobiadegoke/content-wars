@@ -36,7 +36,7 @@ export const MyInputArea = (props) => {
   return (
     <div className="flex flex-col mt-8 w-full">
       <input
-        className={`px-5 rounded w-full bg-white h-12 ring-1 ring-gray-300 ${
+        className={`px-5 rounded w-full bg-white h-12 ring-1 ring-gray-300 border-none outline-none ${
           meta.error && "ring-2 ring-red-500"
         }`}
         id="message"

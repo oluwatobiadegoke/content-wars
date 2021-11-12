@@ -13,7 +13,7 @@ const MyInputArea = (props) => {
         <Image src="/search.svg" height="20" width="20" alt="search" />
       </label>
       <input
-        className="h-full w-full bg-transparent rounded-r placeholder-white"
+        className="h-full w-full bg-transparent rounded-r placeholder- border-none outline-none"
         id="message"
         {...field}
         {...props}

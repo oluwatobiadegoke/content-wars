@@ -6,7 +6,7 @@ const MyInputArea = (props) => {
   return (
     <div className="flex items-center w-full h-10 bg-transparent rounded px-4">
       <input
-        className="h-full w-full pl-14 text-sm bg-transparent rounded-r placeholder-white border border-lightGrey-100 rounded"
+        className="h-full w-full pl-14 text-sm bg-transparent rounded-r placeholder-white border border-lightGrey-100 rounded outline-none"
         id="message"
         {...field}
         {...props}

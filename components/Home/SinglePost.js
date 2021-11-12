@@ -1,18 +1,12 @@
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import ReactPlayer from "react-player/lazy";
-import { AiOutlinePlayCircle } from "react-icons/ai";
 
 import CommentInput from "./CommentInput";
 import PostHead from "./PostHead";
-import { comment } from "postcss";
 
 const SinglePost = ({ post }) => {
   const [viewAllComments, setViewAllComments] = useState(false);
-
-  const handleContextMenu = useCallback((event) => {
-    event.preventDefault();
-  }, []);
 
   const {
     category,
@@ -47,7 +41,6 @@ const SinglePost = ({ post }) => {
               muted={true}
               loop={true}
               controls
-              // light={true}
               config={{
                 file: {
                   attributes: {
@@ -55,11 +48,6 @@ const SinglePost = ({ post }) => {
                   },
                 },
               }}
-              // playIcon={
-              //   <div>
-              //     <AiOutlinePlayCircle className="h-16 w-16" />
-              //   </div>
-              // }
             />
           </div>
         )}
