@@ -142,10 +142,7 @@ export const PcForm = () => {
               name="Twitch"
               label="Twitch"
               type="text"
-              placeholder="Twitch"
-              Enter
-              Twitch
-              url
+              placeholder="Enter Twitch url"
             />
             <MyInputArea
               name="Youtube"
