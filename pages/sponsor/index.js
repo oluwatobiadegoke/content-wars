@@ -1,4 +1,3 @@
-import Layout from "../../components/General/Layout";
 import Images from "../../components/Sponsor/Images";
 import { MobileForm, PcForm } from "../../components/Sponsor/GetSponsors";
 
