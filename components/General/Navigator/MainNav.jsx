@@ -12,11 +12,11 @@ const MainNav = ({ openModal }) => {
       {/* LOGOS FOR DIFFERENT SCREENS */}
       <div className="flex-1 flex items-center h-full lg:hidden">
         <Link href="/">
-          <a>
+          <a className="shadow-lg">
             <Image
-              src="/content wars.png"
-              width={100}
-              height={90}
+              src="/contentwarlogo.png"
+              width={70}
+              height={70}
               alt="Content Wars Logo"
             />
           </a>
@@ -26,11 +26,10 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/content wars.png"
-              width={120}
-              height={120}
+              src="/contentwarlogo.png"
+              width={96}
+              height={96}
               alt="Content Wars Logo"
-              className="border"
             />
           </a>
         </Link>
@@ -68,7 +67,7 @@ const MainNav = ({ openModal }) => {
               return (
                 <Link href={route} key={id}>
                   <a className="flex flex-col items-center text-center gap-1 cursor-pointer">
-                    <Image src={image} alt={name} height={20} width={20} />
+                    <Image src={image} alt={name} height={32} width={32} />
                     <p>{name}</p>
                   </a>
                 </Link>
@@ -80,7 +79,7 @@ const MainNav = ({ openModal }) => {
                 className="flex flex-col items-center gap-1 cursor-pointer"
                 {...(name === "Upload" && { onClick: () => openModal() })}
               >
-                <Image src={image} alt={name} height={20} width={20} />
+                <Image src={image} alt={name} height={32} width={32} />
                 <p>{name}</p>
               </div>
             );

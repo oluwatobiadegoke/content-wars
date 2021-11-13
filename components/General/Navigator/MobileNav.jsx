@@ -14,7 +14,7 @@ const MobileNav = ({ openModal }) => {
                 key={id}
                 className="flex flex-col items-center text-white gap-1 cursor-pointer"
               >
-                <Image src={image} alt={name} height={20} width={20} />
+                <Image src={image} alt={name} height={32} width={32} />
                 <p className="capitalize">{name}</p>
               </a>
             </Link>
@@ -26,7 +26,7 @@ const MobileNav = ({ openModal }) => {
             className="flex flex-col items-center text-white gap-1 cursor-pointer"
             {...(name === "Upload" && { onClick: () => openModal() })}
           >
-            <Image src={image} alt={name} height={20} width={20} />
+            <Image src={image} alt={name} height={32} width={32} />
             <p className="capitalize">{name}</p>
           </div>
         );
