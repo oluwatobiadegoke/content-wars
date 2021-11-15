@@ -14,9 +14,9 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/content wars.png"
+              src="/Contnt wars.png"
               width={100}
-              height={90}
+              height={50}
               alt="Content Wars Logo"
             />
           </a>
@@ -26,9 +26,9 @@ const MainNav = ({ openModal }) => {
         <Link href="/">
           <a>
             <Image
-              src="/content wars.png"
+              src="/Contnt wars.png"
               width={120}
-              height={120}
+              height={60}
               alt="Content Wars Logo"
               className="border"
             />
