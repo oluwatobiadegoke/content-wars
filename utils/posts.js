@@ -123,7 +123,7 @@ export const posts = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     timestamp: "45mins ago",
     category: "Dance",
     content: {
