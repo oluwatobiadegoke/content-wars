@@ -6,7 +6,7 @@ const VideoRequests = () => {
   return (
     <Layout>
       <main className="text-white">
-        <div className="w-full px-4 lg:w-1/3 mx-auto mt-16 mb-14 lg:mb-0">
+        <div className="w-full px-4 lg:w-1/3 mx-auto mt-16 pb-16 lg:mb-0">
           <p className="text-lg text-center text-appYellow-100 mb-14">
             Video Requests
           </p>

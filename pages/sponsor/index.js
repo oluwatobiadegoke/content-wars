@@ -8,7 +8,7 @@ const Sponsor = () => {
         <Images />
         <div className="mt-32 lg:mt-52 pt-4 pb-8">
           <p className="text-white text-xl font-bold mb-8 text-center">
-            Get Sponsors
+            Apply to get sponsors
           </p>
           <div className="md:hidden py-8 mx-4 rounded bg-black">
             <MobileForm />

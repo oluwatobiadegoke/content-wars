@@ -90,4 +90,68 @@ export const posts = [
       },
     ],
   },
+  {
+    id: 4,
+    timestamp: "45mins ago",
+    category: "Dance",
+    content: {
+      words: "Let’s take this 🚀 to the 🌚",
+      source: "/model2.mp4",
+      type: "Video",
+    },
+    user: {
+      name: "Sarah Munday",
+      avatar: "/model2.jpg",
+    },
+    likes: 4000,
+    comments: [
+      {
+        id: 1,
+        avatar: "/commentavatar.png",
+        comment: "Wow! You're sooo good.",
+      },
+      {
+        id: 2,
+        avatar: "/commentavatar.png",
+        comment: "Love it",
+      },
+      {
+        id: 2,
+        avatar: "/commentavatar.png",
+        comment: "Nice steps Sarah.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    timestamp: "45mins ago",
+    category: "Dance",
+    content: {
+      words: "Let’s take this 🚀 to the 🌚",
+      source: "/model3.mp4",
+      type: "Video",
+    },
+    user: {
+      name: "Galadancer",
+      avatar: "/model3.jpg",
+    },
+    likes: 4000,
+    comments: [
+      {
+        id: 1,
+        avatar: "/commentavatar.png",
+        comment: "This is great.",
+      },
+      {
+        id: 2,
+        avatar: "/commentavatar.png",
+        comment: "Love those steps",
+      },
+      {
+        id: 2,
+        avatar: "/commentavatar.png",
+        comment: "Nice moves",
+      },
+    ],
+  },
 ];
