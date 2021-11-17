@@ -1,5 +1,6 @@
 import Images from "../../components/Sponsor/Images";
-import { MobileForm, PcForm } from "../../components/Sponsor/GetSponsors";
+import MobileForm from "../../components/Sponsor/Forms/MobileForm";
+import PcForm from "../../components/Sponsor/Forms/PcForm";
 
 const Sponsor = () => {
   return (
