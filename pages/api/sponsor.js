@@ -32,7 +32,7 @@ export default async function handler(req, res) {
       to: "natalie@contentwars.io",
       subject: `Contact form submission from ${Firstname + " " + Lastname}`,
       html: `
-        <h1>New Sponsor form submission</h1>
+        <h1>New Application to get sponsored on Contentwars</h1>
         <p><strong>Name: </strong> ${Firstname + " " + Lastname}</p>
         <p><strong>Email: </strong> ${Email}</p>
         <p><strong>Phone number: </strong>${Phone}</p>
