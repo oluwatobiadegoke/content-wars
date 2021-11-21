@@ -1,14 +1,26 @@
-import Layout from "../components/General/Layout";
-import Posts from "../components/Home/Posts";
+import Images from "../components/Sponsor/Images";
+import MobileForm from "../components/Sponsor/Forms/MobileForm";
+import PcForm from "../components/Sponsor/Forms/PcForm";
 
-import { posts } from "../utils/posts";
-
-export default function Home() {
+const Sponsor = () => {
   return (
-    <Layout>
-      <main className="text-white mt-4 pb-14 lg:pb-4">
-        <Posts posts={posts} />
-      </main>
-    </Layout>
+    <main className="bg-deepGrey-100 min-h-screen">
+      <div>
+        <Images />
+        <div className="mt-32 lg:mt-52 pt-4 pb-8">
+          <p className="text-white text-xl font-bold mb-8 text-center">
+            Apply to get sponsored
+          </p>
+          <div className="md:hidden py-8 mx-4 rounded bg-black">
+            <MobileForm />
+          </div>
+          <div className="hidden md:block py-8 max-w-6xl w-full mx-auto bg-black rounded-lg">
+            <PcForm />
+          </div>
+        </div>
+      </div>
+    </main>
   );
-}
+};
+
+export default Sponsor;
