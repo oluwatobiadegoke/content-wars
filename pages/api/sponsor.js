@@ -119,6 +119,48 @@ export default async function handler(req, res) {
 
         <p>Chat soon!</p>
         <p>Enrollment Team</p>
+
+        <table cellpadding="0" cellspacing="0" style="padding:0;margin:0">
+          <tbody>
+            <tr>
+              <td valign="top" align="left">
+                <table bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" style="padding:0;margin:0;border:0">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="border:1px solid #e5e5e5;padding:20px" id="m_-2283997912417090119main-pad">
+                        <table style="line-height:22px;font-family: Poppins, Century Gothic, Arial,sans-serif;" cellspacing="0" cellpadding="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td style="padding-right:20px;" width="120" align="left">
+                                <img src="https://i.postimg.cc/zXY3GYvX/logo-image.gif" alt="logo" width="120" height="120" style="height:120px;width:120px;">
+                              </td>
+                              <td valign="middle" nowrap="nowrap" align="left">
+                                <span style="color:#030303;font-size:12pt;font-weight:500;">Natalie Enrollment Lead</span><br>
+                                <div style="width:99%; height:15px;line-height:15px; overflow:hidden; padding:0; margin:0;font-size:0px; display:block">&nbsp;</div>
+                                <a href="" target="_blank"><img src="https://i.postimg.cc/ryCV2k5r/FB.png" width="23" height="23" style="width:23px;height:23px"></a>
+                                <a href="" target="_blank"><img src="https://i.postimg.cc/BQmJtBYZ/IG.png" width="23" height="23" style="width:23px;height:23px"></a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style="width:99%; height:10px;line-height:10px; overflow:hidden; padding:0; margin:0;font-size:0px; display:block">&nbsp;</div>
+                        <table width="470" height="30" style="width:470px;height:30px;font-family: Poppins, Century Gothic, Arial,sans-serif" cellspacing="0" cellpadding="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td align="center" bgcolor="#030303" style="background-color:#030303">
+                                <span style="color:#ffffff;font-size:9pt;font-weight:500;">Decentralized Social Media that Pays users and Creators in crypto</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+	      </table>
       `,
     });
     res.status(200).json({ response: 1, message: "Message sent" });
