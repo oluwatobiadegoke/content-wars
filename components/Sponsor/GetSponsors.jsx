@@ -8,7 +8,12 @@ export const MyInputArea = (props) => {
         htmlFor={props.name}
         className="text-appYellow-100 flex items-center"
       >
-        {props.label}*
+        {props.name === "Firstname" ||
+        props.name === "Lastname" ||
+        props.name === "Email" ||
+        props.name === "Phone"
+          ? `${props.label}*`
+          : props.label}
       </label>
       <input
         className="h-10 w-full bg-transparent rounded pl-4 border outline-none"
