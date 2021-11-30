@@ -96,6 +96,12 @@ export default async function handler(req, res) {
       `,
     });
     const themail = await transporter.sendMail({
+      headers: {
+        "Content-Type": "text/html; charset=UTF-8",
+        From: "admin@contentwars.io",
+        To: Email,
+        Subject: "Thank you for your application",
+      },
       from: "admin@contentwars.io",
       to: Email,
       subject: `Your application is almost complete :)`,
