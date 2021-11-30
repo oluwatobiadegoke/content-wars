@@ -21,14 +21,14 @@ export default async function handler(req, res) {
     port: 465,
     secure: true,
     auth: {
-      user: "natalie@contentwars.io",
+      user: "admin@contentwars.io",
       pass: "Galaxy500",
     },
   });
 
   try {
     const theEmail = await transporter.sendMail({
-      from: "natalie@contentwars.io",
+      from: "admin@contentwars.io",
       to: "natalie@contentwars.io",
       subject: `Contact form submission from ${Firstname + " " + Lastname}`,
       html: `
@@ -96,7 +96,7 @@ export default async function handler(req, res) {
       `,
     });
     const themail = await transporter.sendMail({
-      from: "natalie@contentwars.io",
+      from: "admin@contentwars.io",
       to: Email,
       subject: `Your application is almost complete :)`,
       html: `
